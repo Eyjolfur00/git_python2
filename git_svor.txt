@@ -1,0 +1,56 @@
+#git spurningar og svör
+
+1. Hvað gera eftirfarandi Linux skipanir?
+	cd     = breytir directorinum 
+	cd ~   = maður fer a heimasvæði
+	ls     = skoðar alla directoria á svæðinu sem þú ert á
+	pwd    = checka hvaða drifi maður er á
+	mkdir  = búa til direcotry
+
+2. Hvað gera eftirfarandi git skipanir og hvers vegna eru þær gagnlegar?
+	git clone      = klóna geymslu inní nýtt directoery
+	git log        = sýnir skjöl sem maður er búinn að commita
+	git status     = sýnir hvar maður er að vinna
+	git diff       = það synir breytingar milli vinnandi tree og commits 
+	git checkout   = restorað vinnandi tree skjal
+
+
+3. Hver er munurinn á eftirfarandi git skipunum:
+	a) git diff                        = það sýnir breytingar milli vinnandi tree og commits
+	b) git diff --staged               = það sýnir breytingar eftir hvaða log þú velur
+	c) git diff commit1 commit2        = það sýnir breytingar milli eina , marga , alla files
+
+4. Hvað er útgáfustýring (e.version control)? 
+	
+	það er version sem stjórnar kerfi sem tekur upp allar breytingar á file
+
+5. Hverjir eru helstu kostir við að nota GIT?
+   
+   Maður getur unnið að sínu eigin verkefni og ræður ef þú villt að aðrir geta séð og breytt koðanum (fyrir samvinnu)
+
+6. Hversu oft telur þú að eigi að gera commit í verkefni, rökstuddu?
+	
+	fyrir hvert svar svo að það er hægt að sjá allar breytingar
+
+
+7.	Hvað er "Working directory"?" "Staging area"?" og "Repository" í GIT?
+	
+	= Þetta er kallað the three states
+
+	working directory = directory sem er verið að vinna í
+	staging area = þetta er svæði þar sem að hlutir eru lagaðir áður en það er commitað
+	repository = geymsla þar sem að gögnin þín eru geymd
+
+8.	Hvenær er sniðugt að nota greinar (branches)? 
+
+	ef að það eru margir að vinna i verkefni þá er gott að nota greinar til að sjá hvar maður er
+	líka ef það er mikið af fileum og helling inni þeim þá er líka mjög gott að nota greinar.
+
+
+9.	Hver fann upp GIT?
+
+	Linus Torvalds
+
+10.	Hvar er GIT helst notað?
+	
+	Í tölvunni .....? ᕦ(ò_óˇ)ᕤ
